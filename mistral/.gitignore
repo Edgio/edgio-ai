@@ -1,0 +1,10 @@
+.env
+node_modules
+.DS_Store
+
+# Edgio generated build directory
+.edgio
+build
+sw
+package-lock.json
+.env.local

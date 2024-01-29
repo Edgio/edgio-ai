@@ -11,7 +11,7 @@ This template scaffolds a LangChain.js + Next.js starter app and showcases sever
 - [Retrieval augmented generation (RAG) with an agent and a vector store](/app/api/chat/retrieval_agents/route.ts)
 
 <p align="center">
-  <img width="240px" src="./public/agent-convo.gif" alt="Demo GIF">
+  <img width="480px" src="./public/agent-convo.gif" alt="Demo GIF">
 </p>
 
 - You can check out a hosted version of this repo at [langchain-nextjs-template.vercel.app](https://langchain-nextjs-template.vercel.app/).
@@ -51,7 +51,7 @@ npm run dev
 Open [localhost:3000](http://localhost:3000) with your browser and ask the bot something. You'll see a streamed response:
 
 <p align="center">
-  <img width="240px" src="./public/chat-conversation.png" alt="A streaming conversation between the user and the AI">
+  <img width="480px" src="./public/chat-conversation.png" alt="A streaming conversation between the user and the AI">
 </p>
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
@@ -133,7 +133,7 @@ The second example shows how to have a model return output according to a specif
 Click the `Structured Output` link in the navbar to try it out:
 
 <p align="center">
-  <img width="240px" src="./public/structured-output-conversation.png" alt="A streaming conversation between the user and an AI agent">
+  <img width="480px" src="./public/structured-output-conversation.png" alt="A streaming conversation between the user and an AI agent">
 </p>
 
 ```json
@@ -163,7 +163,7 @@ curl --get https://serpapi.com/search \
 Click the `Agent` example and try asking it more complex questions:
 
 <p align="center">
-  <img width="240px" src="./public/agent-conversation.png" alt="A streaming conversation between the user and an AI agent">
+  <img width="480px" src="./public/agent-conversation.png" alt="A streaming conversation between the user and an AI agent">
 </p>
 
 This example uses the OpenAI Functions agent but there are a few other options you can try. See [the documentation page for Agent Types](https://js.langchain.com/docs/modules/agents/agent_types/) to learn more.
@@ -186,11 +186,11 @@ For Supabase, follow [these instructions](https://js.langchain.com/docs/modules/
 After splitting, embedding, and uploading some text, you're ready to ask questions!
 
 <p align="center">
-  <img width="240px" src="./public/retrieval-chain-conversation.png" alt="A streaming conversation between the user and an AI retrieval chain">
+  <img width="480px" src="./public/retrieval-chain-conversation.png" alt="A streaming conversation between the user and an AI retrieval chain">
 </p>
 
 <p align="center">
-  <img width="240px" src="./public/retrieval-agent-conversation.png" alt="A streaming conversation between the user and an AI retrieval agent">
+  <img width="480px" src="./public/retrieval-agent-conversation.png" alt="A streaming conversation between the user and an AI retrieval agent">
 </p>
 
 The specific variant of the conversational retrieval chain used here is composed using [LangChain Expression Language](https://js.langchain.com/docs/guides/expression_language/cookbook). This chain example will also return cited sources via header in addition to the streaming response.

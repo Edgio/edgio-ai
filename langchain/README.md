@@ -1,22 +1,6 @@
 # LangChain
 
-This template scaffolds a LangChain.js + Next.js starter app and showcases several use cases for different LangChain modules. Most use Vercel's [AI SDK](https://github.com/vercel-labs/ai) to stream tokens to the client and display incoming messages.
-
-## Use Cases
-
-- [Simple chat](/app/api/chat/route.ts)
-- [Returning structured output from an LLM call](/app/api/chat/structured_output/route.ts)
-- [Answering complex, multi-step questions with agents](/app/api/chat/agents/route.ts)
-- [Retrieval augmented generation (RAG) with a chain and a vector store](/app/api/chat/retrieval/route.ts)
-- [Retrieval augmented generation (RAG) with an agent and a vector store](/app/api/chat/retrieval_agents/route.ts)
-
-<p align="center">
-  <img width="480px" src="./public/agent-convo.gif" alt="Demo GIF">
-</p>
-
-- You can check out a hosted version of this repo at [langchain-nextjs-template.vercel.app](https://langchain-nextjs-template.vercel.app/).
-- [Open in GitHub Codespaces](https://codespaces.new/langchain-ai/langchain-nextjs-template)
-- [Deploy with Edgio]()
+This template scaffolds a LangChain.js + Next.js starter app and showcases several use cases for different LangChain modules.
 
 ## Getting Started
 
